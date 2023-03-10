@@ -2,7 +2,7 @@
 
     var EventDispatcher = Quark.EventDispatcher = function()
     {
-        //事件映射表，格式为：{type1:[listener1, listener2], type2:[listener3, listener4]}
+        {type1:[listener1, listener2], type2:[listener3, listener4]}
         this._eventMap = {};
     };
 
